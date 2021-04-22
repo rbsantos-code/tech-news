@@ -1,7 +1,6 @@
 const User = require('./User');
 const Post = require('./Post');
 const Vote = require('./Vote');
-const { ValidationErrorItem } = require('sequelize/types');
 
 // create associations
 User.hasMany(Post, {
