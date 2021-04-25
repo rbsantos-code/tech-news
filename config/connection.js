@@ -11,6 +11,5 @@ if (process.env.JAWSDB_URL) {
     });
 }
 
-// connctions broken before with column symbol
 
 module.exports = sequelize;
